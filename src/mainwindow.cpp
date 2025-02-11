@@ -85,7 +85,7 @@ void MainWindow::on_pushInterfaceBut_clicked()
                     const char* convertInterfaceName = pathStr.c_str();
 
                     std::string savePathStr = savePath.toStdString();
-                    const char* convertSavePath = pathStr.c_str();
+                    const char* convertSavePath = savePathStr.c_str();
 
                     char errbuf[PCAP_ERRBUF_SIZE];
                     const char* filter_exp = "ip and (tcp or udp)";
