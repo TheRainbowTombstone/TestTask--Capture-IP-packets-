@@ -9,7 +9,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.user
-*.user.*
 *.pro.user
 
 *.o
